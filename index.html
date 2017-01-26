@@ -29,11 +29,11 @@
       <section id="question-1-answer">
         <h1>This is what you should know about me</h1>
 
-        <p>I don’t know how many wanna-be tech journalists later become software developers, but I’m happy to be in that group regardless. My decision to pursue software development full-time came after working as a project manager at a mobile app agency and wanting to more fully understand how to build products that clients and users actually want to use on the development side.</p>
+        <p>I don’t know how many wanna-be tech journalists later become software developers, but I’m happy to be in that group regardless. My decision to pursue software development full-time came after working as a project manager at a mobile app agency and wanting to more fully understand how to build products that customers actually want to use on the development side.</p>
 
         <p>About 75% of my day-to-day as a project manager involved talking to clients either in person, over the phone or via email. I got really good at putting out fires all while maintaining a positive and helpful attitude. I also got really good at asking for help or clarification from my design or development team when I didn’t know the answers. Project management made sense for me at the time, but learning how to be on the technical end of the product cycle started to catch my eye, so I decided to jump head first.</p>
 
-        <p>While I took some online courses on Rails and JavaScript thanks to companies like Skillcrush, Codecademy and Free Code Camp, I didn’t feel like I really understood what I was doing until I attended the Turing School of Software and Design in Denver, Colo. I recently graduated from the backend program in January 2017 and feel like that the last 7+ months positioned me to be a good asset to a team that cares as much about their users as Basecamp does.</p>
+        <p>While I took some online courses on Rails and JavaScript thanks to companies like Skillcrush, Codecademy and Free Code Camp, I didn’t feel like I really understood what I was doing until I attended the Turing School of Software and Design in Denver, Colo. I recently graduated from the backend program in January 2017 and feel like that the last 7+ months positioned me to be a good asset to a team that cares as much about their customers as Basecamp does.</p>
 
         <p>While in journalism school, I learned how to concisely convey complicated ideas to different audiences in engaging ways. I’ve come to find that this is a skill that translates well to explaining code to others, too. Investigative journalism also always excited me because it gave me an outlet to ask questions and to find answers; Unsurprisingly, I’ve found this same sense of excitement in programming when figuring out bugs or planning out how to implement new features in existing code.</p>
 
@@ -57,10 +57,42 @@
 
       <section id="question-2-answer">
         <h2>My reply to an email from a security researcher reporting that they have found an XSS in Basecamp, leading to full account takeover.</h2>
+
+        <blockquote>
+          <p>Hi [Security Researcher],</p>
+
+          <p>Thank you for reporting the XSS vulnerability you found in Basecamp. Security risks, especially ones that can lead to an account takeover, are our number one priority.</p>
+
+          <p><small>(THOUGHT: Based on my knowledge of HTTP requests and cross-site scripting, I’d want to know where this vulnerability was found if the information wasn’t provided to me. For example, are we experiencing some form injections or do we have an img tag written incorrectly?)</small></p>
+
+          <p>In order to make sure we address the issue as promptly and thoroughly as possible, would you mind narrowing down where and how you found this XSS vulnerability? A step-by-step account of how to produce the XSS to post would super helpful to our development team.</p>
+
+          <p>Thanks for making the Basecamp experience more secure!</p>
+
+          <p>Jasmin</p>
+        </blockquote>
       </section>
 
       <section id="question-3-answer">
         <h2>The steps I would take to diagnose a report that some images aren’t loading in a customer’s Basecamp account.</h2>
+
+        <ol>
+          <li>I'd first make sure I respond to the customer and let them know that I'm looking into the issue and will get back to them ASAP.</li>
+
+          <li>I would then obtain information on how the customer was viewing their Basecamp account when experiencing these image load issues.</li><br>
+
+            <blockquote><p>i.e. Which browser, what device, what OS version and on what views they are experiencing this</p></blockquote>
+
+          <li>I’d then try to recreate the issue on my end.</li>
+
+          <li>If I can confirm the issue, I would try and do some sleuthing and figure out if it’s an asset pipeline issue, a caching issue, a typo issue or something else that could be fairly obvious.</li>
+
+          <li>I’d then file the report with the appropriate information.</li>
+
+          <li>If I can’t confirm the issue on my own, I would double check with Jim or another Basecamp team member to make sure I’ve exhausted my resources.</li>
+
+          <li>At the end, I would follow-up with the customer to keep them up-to-date on the outcome.</li>
+        </ol>
       </section>
 
       <footer>
